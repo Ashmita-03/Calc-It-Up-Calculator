@@ -8,7 +8,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
     box-shadow: 0 4px 10px black;
+}
+
+#top h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 48 px;
+    color:white;
+    text-shadow:3px 3px 5px rgb(0, 0, 0);
+    letter-spacing: 2px;
 }
 
 #container {
@@ -19,6 +28,14 @@
     gap: 20px;
 }
 
+.info-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap:100%
+}
+
 section {
     background-color: #9cc7a4;
     color: #4b6a51;
@@ -26,8 +43,32 @@ section {
     border: 3px solid white;
     text-align: center;
     box-shadow: 0 4px 10px black;
+    border-radius: 10px;
+    padding:15 px;
+    width: 80%;
 }
 
+section h2 {
+    font-size: 22px;
+    margin-bottom:10px;
+}
+
+section p {
+    font-size:16px;
+    margin-bottom:15px;
+}
+
+section h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mathImg{
+    width:100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
 body {
     display: flex;
     justify-content: center;
