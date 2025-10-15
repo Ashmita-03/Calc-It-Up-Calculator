@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet"/>
+    <title>My website</title>
+</head>
+<body>
+    <div id="container">
+        <header id="top">
+            <h1>MelodyWaves</h1>
+        </header>
+
+        <div id="main">
+            <div id="controls">
+                <h4>Enter your notes</h4>
+                <input type="text" id="input">
+
+                <div class="button-row">
+                    <button id="submit" onclick="handle()">Submit to play</button>                
+                    <button id="record" onclick="toggle()">Start recording</button>
+                </div>
+
+                <h4>Change Colors</h4>
+                <div class="colors">
+                    <input type="color" id="color1" value="#05445E">
+                    <input type="color" id="color2" value="#189AB4">
+                    <input type="color" id="color3" value="#75E6DA">
+                </div>
+
+                <h4>Volume</h4>
+                <input type="range" min="1" max="100" value="100" id="vol-slider">
+                <h4>Thickness</h4>
+                <input type="range" min="1" max ="10" value="2" id="thickness">
+
+                <h4>Waveform</h4>
+                <select id="waveform">
+                    <option value="sine">Sine</option>
+                    <option value="square">Square</option>
+                    <option value="triangle">Triangle</option>
+                    <option value="sawtooth">Sawtooth</option>
+                </select>
+            </div>
+            
+            <div id="canvas-container">
+                <h2 id="canvas-title">Turn Notes into Waveform Art using MelodyWaves</h2>
+                <canvas id="canvas"></canvas>
+            </div>    
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
