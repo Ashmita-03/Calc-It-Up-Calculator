@@ -10,9 +10,9 @@ This calculator helps you calculate your everyday math problems with ease. It ma
 - A adjustable screen that expands according to the length of the calculated answer.
 
 ### Technologies used
-index.html>> The content of the website
-style.css>> Renders the style elments of the website
-script.js>> Output the click sound when buttons are clickeddd, and calculates the answeR.
+- index.html>> The content of the website
+- style.css>> Renders the style elments of the website
+- script.js>> Output the click sound when buttons are clickeddd, and calculates the answeR.
 
 ### Struggles and Learnings
 I struggled to get the calculated answer on the calculator screen, but finally figured it out. I learned how to add a sound to the userinterface, and how lng it should be.
