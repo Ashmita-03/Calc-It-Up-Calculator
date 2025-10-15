@@ -18,6 +18,6 @@ This calculator helps you calculate your everyday math problems with ease. It ma
 I struggled to get the calculated answer on the calculator screen, but finally figured it out. I learned how to add a sound to the userinterface, and how lng it should be.
 ### Preview
 <img width="1079" height="923" alt="Screenshot 2025-10-15 170221" src="https://github.com/user-attachments/assets/51c0b77d-3c66-409a-a715-19ddb3a5d67d" />
-<img width="850" height="538" alt="image" src="https://github.com/user-attachments/assets/154f5a55-a4c4-409e-84c0-acf48a0e4578" />
+<img width="1203" height="511" alt="image" src="https://github.com/user-attachments/assets/6073b896-55e8-4b37-8345-a6a4d3164c96" />
 
 
