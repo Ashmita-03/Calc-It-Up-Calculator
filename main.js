@@ -24,3 +24,16 @@ function calculate(button) {
     }
 
 }
+
+// sound on buttons
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        const value = button.textContext;
+        if(value != "CLEAR" && value !== "=") {
+        const sound = clickSound.cloneNode();
+        sound.play();
+        }
+
+        calculate(button);
+    });
+});
